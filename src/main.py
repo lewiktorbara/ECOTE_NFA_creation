@@ -112,26 +112,3 @@ if __name__ == "__main__":
                 er_str = er.what_short(None)
         print(er_str, file=log_out)
         exit()
-    
-
-
-
-
-
-    #logs = []
-    #strings = ['110ax', '1']
-    #print(comparison('1*.(0|a)*.x', strings, logs))
-    #print(conversion('1*.(0|a).x', logs))
-    #print(logs[0].err_code)
-    '''
-    # Print warnings
-    if len(logs) == 1:
-        print("Execution completed with %d warning:" % len(logs))
-    elif len(logs) > 1:
-        print("Execution completed with %d warnings:" % len(logs))
-    else:
-        print("Execution completed with no warnings.")
-    for log in logs:
-        warn_str = error_lib.what_long(log)
-        print(warn_str)
-    '''
